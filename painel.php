@@ -1,3 +1,7 @@
+<?php
+include('app/protect.php')
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CRUD</title>
-  <link rel="stylesheet" href="stylepainel.css">
+  <link rel="stylesheet" href="assets/css/stylepainel.css">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -50,7 +54,7 @@
     </div>
 
   </div>
-  <script src="script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
